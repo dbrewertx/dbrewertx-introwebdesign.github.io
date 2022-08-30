@@ -6,3 +6,7 @@ function showMenu() {
     menu.style.display="inline";
   }
 }
+
+function contact() {
+  var name=prompt("What is your name?");
+}
