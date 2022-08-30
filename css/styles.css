@@ -107,6 +107,19 @@ footer {
   clear: both;
 }
 
+footer a {
+  color: #006666;
+  text-decoration: underline;
+}
+
+img:hover {
+  border-radius: 50px;
+}
+
+header h1:hover {
+  color: blue;
+}
+
 @media screen and (min-width: 700px) {
   h1, h2 {
     font-size: 3em;
