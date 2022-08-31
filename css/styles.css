@@ -111,11 +111,6 @@ footer {
   clear: both;
 }
 
-footer a {
-  color: #006666;
-  text-decoration: underline;
-}
-
 img:hover {
   borer: 5px solid red;
 }
@@ -204,11 +199,5 @@ header h1:hover {
   #resume {
     display: block;
     width: 100%;
-  }
-
-  footer {
-    margin: 0;
-    width: 100%;
-    margin-bottom: -30px;
   }
 }
