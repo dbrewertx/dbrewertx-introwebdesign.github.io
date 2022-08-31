@@ -7,6 +7,9 @@ function showMenu() {
   }
 }
 
-function contact() {
-  var name=prompt("What is your name?");
+function submitForm() {
+  var name=document.getElementById("name").value;
+  var email=document.getElementById("email").value;
+  var message=document.getElementById("message").value;
+  alert("Your message was submitted. Thank you, "+name+"!");
 }
