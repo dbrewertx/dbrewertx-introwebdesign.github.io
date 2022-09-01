@@ -141,7 +141,7 @@ header h1:hover {
     text-align: center;
   }
   
-  i.fa-angle-down {
+  i.fa-angle-down, i.fa-bars {
     display: none !important;
   }
   
