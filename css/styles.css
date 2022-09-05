@@ -82,8 +82,9 @@ p, #resume ul  {
 }
 
 #portfolio img {
+  display: block;
   width: 50%;
-  margin-top: 2em;
+  margin: 2em auto 0 auto;
   border: 3px solid #000000;
 }
 
@@ -98,10 +99,10 @@ h2 {
   text-align: left;
 }
 
-footer {
-  background-color: #ffffff;
-  margin-bottom: -30px;
-  font-size: 1em;
+h3 {
+  font-family: Aboreto;
+  font-size: 32px;
+  text-align: center;
 }
 
 #fullPage {
@@ -117,6 +118,22 @@ img:hover {
 
 header h1:hover {
   color: blue;
+}
+
+form {
+  text-align: center;	
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #d3d3d3;
+}
+
+form label {
+  display: none;
+}
+
+form input {
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 700px) {
@@ -181,23 +198,29 @@ header h1:hover {
   #bio {
     display: block;
     width: 100%;
-    border-bottom: 2px solid #000000;
   }
 
   #portfolio {
     display: block;
-    text-align: center;
+    text-align: left;
+    border-top: 2px solid black;
   }
 
   #portfolio img {
     display: inline-block: 
     float: left;
-    max-width: 25%;
+    width: 10%;
     margin-left: 5em ;
+  }
+
+  #portfolio h3 {
+    display: inline-block;
+
   }
 
   #resume {
     display: block;
     width: 100%;
+    border-top: 2px solid black;
   }
 }
